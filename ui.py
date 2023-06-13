@@ -8,7 +8,6 @@ from datetime import date, timedelta
 le = joblib.load('le.h5')
 model = joblib.load('model.h5')
 fs = joblib.load('fs.h5')
-maxi = joblib.load('max.h5')
 
 input_ = {}
 
